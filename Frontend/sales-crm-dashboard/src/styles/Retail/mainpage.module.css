@@ -1,0 +1,48 @@
+.flex {
+    display: flex;
+  }
+  
+  .flex-grow {
+    flex-grow: 1;
+  }
+  
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  .bg-gray-100 {
+    background-color: #f7fafc;
+  }
+  
+  .h-screen {
+    height: 100vh;
+  }
+  
+  .overflow-auto {
+    overflow: auto;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .text-gray-800 {
+    color: #2d3748;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .text-gray-600 {
+    color: #4a5568;
+  }

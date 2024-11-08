@@ -1,0 +1,84 @@
+/* branchCard.module.css */
+
+.branchCardsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .branchCard {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .branchCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .branchId {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .branchCard p {
+    font-size: 1em;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .branchCard p strong {
+    color: #333;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .branchCardsContainer {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Title styling */
+.branchCardsContainer h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Search input styling */
+  .searchContainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .searchInput {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  

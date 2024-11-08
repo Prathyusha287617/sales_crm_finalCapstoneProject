@@ -1,0 +1,103 @@
+/* Container for the invoice */
+.invoiceContainer {
+  border: 1px solid #ddd;
+  padding: 30px;
+  margin: 30px auto;
+  /*background-color: #fff;*/
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 900px;
+}
+ 
+/* Title styles */
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 36px;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+ 
+h2, h3 {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+ 
+/* Invoice sections (customer info, order details, etc.) */
+.invoiceSection {
+  margin-bottom: 25px;
+}
+ 
+/* Table styles */
+.invoiceTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+ 
+.invoiceTable th, .invoiceTable td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+ 
+.invoiceTable th {
+  background-color: #f4f4f4;
+  color: #2c3e50;
+}
+ 
+.invoiceTable td {
+  color: #7f8c8d;
+  font-size: 14px;
+}
+ 
+.invoiceTable td strong {
+  color: #2c3e50;
+}
+ 
+/* Highlight rows for important information */
+.invoiceTable tr:last-child td {
+  font-weight: bold;
+  background-color: #f1f1f1;
+}
+ 
+/* Footer and note styles */
+.invoiceFooter {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #95a5a6;
+  font-size: 14px;
+  border-top: 2px solid #f1f1f1;
+  padding-top: 15px;
+}
+ 
+.invoiceFooter p {
+  margin: 5px 0;
+}
+ 
+.note {
+  font-style: italic;
+  font-size: 16px;
+  color: #7f8c8d;
+}
+ 
+/* Page number and other text elements */
+.pageNum {
+  text-align: right;
+  font-size: 12px;
+  color: #bdc3c7;
+}
+ 
+/* Special styling for totals and transactions */
+.totalAmount {
+  color: #e74c3c;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  padding-top: 15px;
+}
+ 

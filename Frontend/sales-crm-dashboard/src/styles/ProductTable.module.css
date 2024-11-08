@@ -1,0 +1,35 @@
+/* General Table Styles */
+.table {
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    width: 70%; /* Decreased width from 90% to 80% */
+    max-width: 800px; /* Add a maximum width to prevent large tables */
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+
+/* Cell Padding */
+.table th, .table td {
+    padding: 0.75rem; /* Reduced padding for cells */
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        box-shadow: none;
+        width: 100%; /* Allow full width on small screens */
+    }
+
+    /* Smaller Padding for Mobile */
+    .table th, .table td {
+        padding: 0.5rem; /* Further reduce padding for mobile */
+    }
+}
